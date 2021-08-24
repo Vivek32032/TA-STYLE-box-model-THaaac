@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ------------ code from here----------- */
+
+
+
+
+
+
+
+body {
+    line-height: 1.5;
+    text-align: center;
+    }
+
+h1 {
+    font-size: 40px;
+    /* font-weight: bold; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+    }
+
+h2{
+     font-size: 30px;
+     font-weight: 500;
+     margin: 20px;
+ }   
+ 
+ 
+span {
+    display: inline-block;
+}
+
+.Exercise1_box {
+    /* display: inline-block; */
+    width: 150px;
+    height: 150px;
+    background-color: rgba(158, 245, 233, 0.808);
+    border: 20px solid rgba(150, 199, 245, 0.863);
+    box-shadow: 0 0 0 4px black , 0 0 0 25px rgb(243, 113, 135) ;    
+    margin: 20px;
+    /* align-items: center; */
+    /* box-shadow: 0 0 0 20px blue; */
+
+}
+
+div {
+    display: inline-block;
+    /* align-items: center; */
+}
+
+
+.circle_box {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: crimson;
+    /* position: absolute; */
+
+}
+
+.gap {
+    word-spacing: 20px;
+}
+.margin {
+    margin-left: 3px;
+}
+.content_color {
+    background-color: rgba(158, 245, 233, 0.808);
+}
+.padding_color {
+    background-color: rgba(150, 199, 245, 0.863);
+}
+.border_color {
+    background-color: black;
+}
+.margin_color {
+    background-color: rgb(243, 113, 135);
+}
+
+
+
+
+
+/*---------for exercise 1 style above --------*/
+
+/*---------for exercise 2 style below --------*/
+
+
+
+footer p {
+    align-items: center;
+    margin: 40px;
+    background-color: blueviolet;
+    color: white;
+}        
+.container {
+    width: 600px;
+    /* font-size: 0px; */
+    /* border: 1px solid black; */
+    margin-bottom: 40px;
+} 
+.child {                                                                          
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    /* border: 1px solid black; */
+    background-color: rgb(202, 202, 202);
+    box-sizing: border-box;
+}          
+
+.border1px {
+    border: 1px solid black;
+}
+.font_size_zero {
+    font-size: 0px;
+}
+
+#text_align_left {
+    text-align: left;
+}
+h3 {
+    margin: 30px;
+    font-size: 20px;
+}
