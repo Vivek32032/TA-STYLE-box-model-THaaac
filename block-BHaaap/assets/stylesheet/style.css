@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* ----Code after this line ---- */
+
+body {
+    line-height: 1.5;
+     /* background-color: rgba(223, 146, 83, 0.664); */
+     text-align: center;
+
+
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    border: 1px solid red;
+    word-spacing: 10px;
+    padding: 10px;
+    background-color: #D18C1D;
+
+}
+p {
+    font-size: 25px;
+    font-weight: bold;
+    margin:  60px auto;
+    border: 2px dotted black;
+    word-spacing: 10px;
+    width: 600px;
+    height: 400px;
+    background-color: #D1D631;
+    /* padding-top: 70px; */
+
+
+}
+img {
+   
+        border-radius: 25px;
+        background: #73AD21;
+        padding: 10px;
+        width: 700px;
+        height: 400px;
+      
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    border-radius: 50%;
+    background-color: red;
+
+}
+div {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    border-bottom: 3px dashed blue;
+    background-color: #A1A1A1;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 20px;
+}
+/* .line {
+    width: 1200px;
+    height: 5px;
+    /* border: 10px solid red; */
+    /* border-radius: 50%;
+    background-color: red;
+    margin: 60px;
+    text-align: center; */
+  
+ } */
+ .center {
+     text-align: center;}
